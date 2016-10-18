@@ -30,6 +30,8 @@ for i in range(5):#este rango es el que me indica las veces que debe realizar de
 print("El total es: ", total)
  #en este sensillo programita, tenemos 3 variables en juego. La variable i que me indica la cantidad de veces que se repetirá la acción asignada después del ":". La variable nuevonumero, será la que tendrá el valor que le introduzca el usuarui. y, por último, la variable total que irá cambiando según se vaya ejecutando el bucle; esta variable comenzará siendo igual a 0, luego cuando se ejecute por primera vez el bucle, según las indicaciones que le hemos dado, se le suma el valor que el usuario le da a la variable nuevonumero. Ej.: si nuevonumero = 2 entonces total = 0 + 2 = 2, y este será el primer numero  a sumar. el primero de los otros 4 numeros que se crearán luego de ingresar valores a la variable nuevonumero, según la  máquina nos lo vaya pidiendo. En la proxima ejecución (recordemos que la repetirá 5 veces, o sea, 5 numeros por sumar) tomará el valor que le quedó a la variable en la operación anterior. No es lindo el hecho de que lo haya entendido? total acumulado! 
 
+#Ah, es necesario decir que a la variable total, es importante asignarle un valor al comienzo del bucle, para que luego las operaciones a realizar tengan donde comenzar a sumar. si no le asignamos un valor a la maldita variable, nuestro código del bucle no sabría a quien sumarle el valor que será ingreado. 
+
 
 
 
