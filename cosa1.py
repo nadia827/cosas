@@ -1,4 +1,5 @@
 print("bien!")
+ print("lala")
 
 nombre = input("dime tu nombre")
 
